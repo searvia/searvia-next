@@ -29,7 +29,7 @@ SEARVIA_WEBHOOK_URL=https://www.example.com/api/searvia  # optional, instant ref
 export { middleware } from 'searvia-next/middleware';
 ```
 
-Already have a middleware? Wrap your response: `return withSearviaPath(request, response)`.
+Already have a middleware? Wrap your response: `return withSearviaPath(request, response)`, and to apply approved redirects first add `const redirect = await searviaRedirect(request); if (redirect) return redirect;`.
 
 **2. Root layout** (`app/layout.tsx`):
 

@@ -1,6 +1,6 @@
 {
   "name": "searvia-next",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Apply the SEO fixes you approve in Searvia (titles, descriptions, canonical, robots, hreflang, structured data, alt text, internal links) to a Next.js App Router site.",
   "type": "module",
   "main": "./dist/index.js",

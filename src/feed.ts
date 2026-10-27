@@ -1,6 +1,6 @@
 // Searvia fix feed: signed (HMAC-SHA256) list of approved fixes keyed by path. Works in the Node.js and Edge runtimes.
 
-export const VERSION = '0.1.0';
+export const VERSION = '0.2.0';
 
 export type Fix = { t: string; v: Record<string, any> };
 export type Feed = { v: string; generated: string; fixes: Record<string, Fix[]> };
